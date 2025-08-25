@@ -4,8 +4,8 @@
   <meta name="google-site-verification" content="ewzCnNw3JxF6MyGe9vF-l4O_pokPphdOszOju8WD7pI" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title style="color: #FFD700; font-weight: bold; text-shadow: 2px 2px 4px #0e0d0d;">MN Plásticos - Embalagens Plásticas e Confecções</title>
-  <meta name="description" content="Soluções em embalagens plásticas e confecções com entrega rápida e preço de fábrica. Conheça nossos produtos e entre em contato!">
+  <title>MN Plásticos - Embalagens Plásticas e Confecções</title>
+  <meta name="description" content="Soluções em embalagens plásticas e confecções em Igarassu, Pernambuco, com entrega rápida e preço de fábrica. Conheça nossos produtos!">
   <meta name="keywords" content="embalagens plásticas, plástico bolha, lona plástica, fardamentos, estojos, mochilas, MN Plásticos, Pernambuco, embalagens plásticas Igarassu">
   <meta name="author" content="MN Plásticos">
   <meta property="og:title" content="MN Plásticos - Embalagens e Confecções de Qualidade">
@@ -27,6 +27,11 @@
   <script src="script.js" defer></script>
 </head>
 <body>
+  <div class="preloader" id="preloader">
+    <div class="spinner"></div>
+    <p>Carregando...</p>
+  </div>
+
   <nav class="navbar">
     <a href="#" class="logo" aria-label="Voltar ao início">
       <img src="FOTOS/favicon-32x32.png" alt="Logo MN Plásticos" class="logo-image">
@@ -36,7 +41,7 @@
     <ul class="nav-links">
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#produtos">Produtos</a></li>
-      <li><a href="#depoimentos">Depoimentos</a></li>
+      <li><a href="#parceiros">Parceiros</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
   </nav>
@@ -58,7 +63,7 @@
         <p>Fundada em 2018, a MN Plásticos é referência no mercado de embalagens plásticas, com destaque para o plástico bolha, disponível em diversos tamanhos e produzido com os mais altos padrões de qualidade. Além disso, nossa divisão de confecções oferece fardamentos, estojos e mochilas, atendendo às necessidades de empresas e consumidores com produtos duráveis e personalizados. Somos movidos pela inovação, comprometidos com a satisfação dos clientes e orgulhosos de sermos líderes em Pernambuco, entregando soluções confiáveis que protegem e valorizam seu negócio.</p>
       </div>
       <div class="sobre-image">
-        <img src="FOTOS/Estoque mais logo.jpg" alt="Estoque da MN Plásticos" loading="lazy">
+        <img src="FOTOS/Estoque mais logo.jpg" alt="Estoque de produtos da MN Plásticos em Igarassu, Pernambuco" loading="lazy">
       </div>
     </div>
   </section>
@@ -70,7 +75,7 @@
         <div class="swiper-slide">
           <div class="produto-card" data-aos="fade-up" data-aos-delay="100">
             <span class="badge">Mais Vendido</span>
-            <img src="FOTOS/BOBINA BOLHA2C.jpg" alt="Rolo de Plástico Bolha" loading="lazy">
+            <img src="FOTOS/BOBINA BOLHA2C.jpg" alt="Rolo de plástico bolha de 1,20m x 100m para proteção de produtos frágeis" loading="lazy" onerror="this.style.display='none';">
             <h3>Plástico Bolha</h3>
             <p>Ideal para proteção de produtos frágeis. Disponível em diversas medidas:</p>
             <ul>
@@ -87,11 +92,12 @@
         <div class="swiper-slide">
           <div class="produto-card" data-aos="fade-up" data-aos-delay="200">
             <span class="badge">Resistente</span>
-            <img src="FOTOS/COLOTE DUPLA.jpg" alt="Colete Dupla Face Resistente" loading="lazy">
+            <img src="FOTOS/COLOTE DUPLA.jpg" alt="Colete dupla face resistente para pelada de futebol" loading="lazy" onerror="this.style.display='none';">
             <h3>Colete Dupla Face</h3>
             <p>Colete dupla face para pelada de futebol.</p>
             <ul>
-              <li></li>
+              <li>Material resistente e leve</li>
+              <li>Disponível em várias cores</li>
             </ul>
             <p class="availability">Disponibilidade sob consulta.</p>
             <a href="https://wa.me/5581996434643" target="_blank" class="cta-btn">Solicitar Orçamento</a>
@@ -100,7 +106,7 @@
         <div class="swiper-slide">
           <div class="produto-card" data-aos="fade-up" data-aos-delay="300">
             <span class="badge">Profissional</span>
-            <img src="FOTOS/POLO LOGO (1).jpg" alt="Fardamento Uniforme" loading="lazy">
+            <img src="FOTOS/POLO LOGO (1).jpg" alt="Fardamento uniforme personalizado para empresas" loading="lazy" onerror="this.style.display='none';">
             <h3>Fardamento</h3>
             <p>Uniformes personalizados para empresas, com design moderno e confortável, disponíveis em todos os estilos.</p>
             <ul>
@@ -114,7 +120,7 @@
         <div class="swiper-slide">
           <div class="produto-card" data-aos="fade-up" data-aos-delay="400">
             <span class="badge">Prático</span>
-            <img src="FOTOS/ESTOJO2.jpeg" alt="Estojo Liso" loading="lazy">
+            <img src="FOTOS/ESTOJO2.jpeg" alt="Estojo liso para armazenamento e organização" loading="lazy" onerror="this.style.display='none';">
             <h3>Estojo Liso</h3>
             <p>Ideal para armazenamento e organização, com design funcional.</p>
             <ul>
@@ -128,7 +134,7 @@
         <div class="swiper-slide">
           <div class="produto-card" data-aos="fade-up" data-aos-delay="500">
             <span class="badge">Estiloso</span>
-            <img src="FOTOS/conjunto de estojos2.jpeg" alt="Estojo Estampado" loading="lazy">
+            <img src="FOTOS/conjunto de estojos2.jpeg" alt="Conjunto de estojos estampados com design moderno" loading="lazy" onerror="this.style.display='none';">
             <h3>Estojo Estampado</h3>
             <p>Perfeito para organização com estampas modernas e variadas.</p>
             <ul>
@@ -142,12 +148,12 @@
         <div class="swiper-slide">
           <div class="produto-card" data-aos="fade-up" data-aos-delay="600">
             <span class="badge">Personalizado</span>
-            <img src="FOTOS/foto abada.png" alt="Abadá Personalizado" loading="lazy">
-            <h3>Ábada</h3>
+            <img src="FOTOS/foto abada.png" alt="Abadá personalizado para festas e eventos" loading="lazy" onerror="this.style.display='none';">
+            <h3>Abadá</h3>
             <p>Abadá personalizado, ideal para festas e eventos.</p>
             <ul>
               <li>Personalizado conforme seu estilo</li>
-              <li></li>
+              <li>Material confortável e resistente</li>
             </ul>
             <p class="availability">Disponibilidade sob encomenda.</p>
             <a href="https://wa.me/5581996434643" target="_blank" class="cta-btn">Solicitar Orçamento</a>
@@ -160,18 +166,36 @@
     </div>
   </section>
 
-  <section id="depoimentos" class="section depoimentos" data-aos="fade-up" data-aos-duration="1000">
-    <h2>O que Nossos Clientes Dizem</h2>
-    <div class="depoimentos-grid">
-      <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
-        <img src="FOTOS/cliente1.webp" alt="Foto de João Silva, cliente da MN Plásticos" loading="lazy">
-        <p>"A MN Plásticos oferece produtos de altíssima qualidade e entrega rápida! Recomendo muito!"</p>
-        <span>— João Silva, Loja de Móveis</span>
+  <section id="parceiros" class="section parceiros" data-aos="fade-up" data-aos-duration="1000">
+    <h2>Clientes Parceiros</h2>
+    <p class="parceiros-intro">Temos orgulho de atender grandes empresas que confiam na qualidade dos nossos produtos e serviços em Pernambuco.</p>
+    <div class="parceiros-grid">
+      <div class="parceiro-item" data-aos="fade-up" data-aos-delay="100">
+        <img src="FOTOS CLIENTES PARCEIROS/LOGO ACIOMEC1.jpg" alt="Logo da Empresa ACIOMEC" loading="lazy" onerror="this.style.display='none';">
       </div>
-      <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
-        <img src="FOTOS/cliente2.webp" alt="Foto de Maria Oliveira, cliente da MN Plásticos" loading="lazy">
-        <p>"O atendimento comercial foi excepcional, e os preços são muito competitivos. Nota 10!"</p>
-        <span>— Maria Oliveira, Construtora</span>
+      <div class="parceiro-item" data-aos="fade-up" data-aos-delay="200">
+        <img src="FOTOS CLIENTES PARCEIROS/LOGO KINITOS.jpg" alt="Logo da KINITOS" loading="lazy" onerror="this.style.display='none';">
+      </div>
+      <div class="parceiro-item" data-aos="fade-up" data-aos-delay="300">
+        <img src="FOTOS CLIENTES PARCEIROS/LOGO ATACADO DOS PRESENTES.jpg" alt="Logo da Empresa ATACADO DOS PRESENTES" loading="lazy" onerror="this.style.display='none';">
+      </div>
+      <div class="parceiro-item" data-aos="fade-up" data-aos-delay="400">
+        <img src="FOTOS CLIENTES PARCEIROS/LOGO ARMAZEM PAPELARIA.png" alt="Logo da ARMAZEM PAPELARIA" loading="lazy" onerror="this.style.display='none';">
+      </div>
+      <div class="parceiro-item" data-aos="fade-up" data-aos-delay="500">
+        <img src="FOTOS CLIENTES PARCEIROS/LOGO CASAS LEO.png" alt="Logo da CASAS LEO" loading="lazy" onerror="this.style.display='none';">
+      </div>
+      <div class="parceiro-item" data-aos="fade-up" data-aos-delay="600">
+        <img src="FOTOS CLIENTES PARCEIROS/LOGO TIMBUSHOP.jpg" alt="Logo da TIMBUSHOP" loading="lazy" onerror="this.style.display='none';">
+      </div>
+      <div class="parceiro-item" data-aos="fade-up" data-aos-delay="700">
+        <img src="FOTOS CLIENTES PARCEIROS/ATACADO DA CONSTRUÇÃO LOGO.jpg" alt="Logo do ATACADO DA CONSTRUÇÃO" loading="lazy" onerror="this.style.display='none';">
+      </div>
+      <div class="parceiro-item" data-aos="fade-up" data-aos-delay="800">
+        <img src="FOTOS CLIENTES PARCEIROS/FERREIRA-PINTO-E-CIA-LTDA.webp" alt="logo da FERREIRA PINTO" loading="lazy" onerror="this.style.display='none';">
+      </div>
+      <div class="parceiro-item" data-aos="fade-up" data-aos-delay="900">
+        <img src="FOTOS CLIENTES PARCEIROS/Loja do condominio.png" alt="logo da LOJA DO CONDOMINIO" loading="lazy" onerror="this.style.display='none';">
       </div>
     </div>
   </section>
@@ -219,13 +243,16 @@
       <div class="footer-links">
         <a href="#sobre">Sobre</a>
         <a href="#produtos">Produtos</a>
-        <a href="#depoimentos">Depoimentos</a>
+        <a href="#parceiros">Parceiros</a>
         <a href="#contato">Contato</a>
         <a href="/politica-de-privacidade.html">Política de Privacidade</a>
       </div>
       <div class="footer-social">
         <a href="https://wa.me/5581996434643" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
         <a href="https://www.instagram.com/mnplasticoo?igsh=dDM3YzU0eGVybmd0" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <button class="dark-mode-toggle" aria-label="Alternar modo escuro">
+          <i class="fas fa-moon"></i>
+        </button>
       </div>
     </div>
     <a href="#" class="back-to-top">Voltar ao Topo</a>
@@ -239,7 +266,7 @@
     <div class="popup-content">
       <h3>Receba Nosso Catálogo!</h3>
       <p>Insira seu e-mail para baixar o catálogo de produtos.</p>
-      <form id="popup-form" action="https://formspree.io/f/xwpbwqvn" method="POST">
+      <form action="https://formsubmit.co/comercialmnplasticos@outlook.com" method="POST">
         <input type="email" name="email" placeholder="Seu Email" required aria-label="Email para catálogo">
         <input type="hidden" name="_subject" value="Solicitação de Catálogo MN Plásticos">
         <button type="submit" class="cta-btn">Enviar</button>
