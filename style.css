@@ -22,16 +22,16 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   padding: 1rem 2rem;
   background-color: rgba(0, 48, 135, 0.9);
-  color: #fff;
+  color: #fffdfd;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(5, 5, 5, 0.1);
   transition: background-color 0.3s ease;
 }
 
 .navbar.scrolled {
-  background-color: #003087;
+  background-color: #03308a;
 }
 
 .logo {
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700; /* Negrito */
   font-size: 1.6rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para destacar */
+  text-shadow: 2px 2px 4px rgba(5, 5, 5, 0.5); /* Sombra para destacar */
   margin-left: -5px; /* Ajusta o texto para ficar mais próximo da logo */
   transition: transform 0.3s ease;
 }
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('FOTOS/FOTO ESTOQUE 1.PNG') no-repeat center center;
+  background: linear-gradient(rgba(59, 58, 58, 0.6), rgba(0, 0, 0, 0.4)), url('FOTOS/FOTO ESTOQUE 1.PNG') no-repeat center center;
   background-size: cover;
   min-height: 80vh;
   display: flex;
@@ -482,7 +482,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-  background-color: #003087;
+  background-color: #022a79;
   color: #fff;
   padding: 2rem;
   text-align: center;
